@@ -8,15 +8,18 @@ import axios from "axios";
 Vue.config.productionTip = false;
 Vue.prototype.$axios = axios;
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCrqp1Puc-zKKudhnjmEhRbwY4HTxxwdNQ",
-  authDomain: "proj-5fd86.firebaseapp.com",
-  databaseURL: "https://proj-5fd86.firebaseio.com",
-  projectId: "proj-5fd86",
-  storageBucket: "proj-5fd86.appspot.com",
-  messagingSenderId: "1042879394402",
-  appId: "1:1042879394402:web:bd8d4e2786a64f5088173b"
+// For Firebase JavaScript SDK v7.20.0 and later, `measurementId` is an optional field
+var firebaseConfig = {
+  apiKey: "AIzaSyDoAoOmQUareUWcmXeG8jeMVQ8atDsbF4g",
+  authDomain: "tes-project-1dd02.firebaseapp.com",
+  databaseURL: "https://tes-project-1dd02.firebaseio.com",
+  projectId: "tes-project-1dd02",
+  storageBucket: "PROJECT_ID.appspot.com",
+  messagingSenderId: "820122845356",
+  appId: "APP_ID",
+  measurementId: "G-MEASUREMENT_ID",
 };
+
 
 firebase.initializeApp(firebaseConfig);
 
